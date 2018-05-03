@@ -1,0 +1,133 @@
+{
+  "Query": [
+    [
+      {
+        "Column": "gameareaid",
+        "Values": "cdd34243ba6c48e18dea3035ea3dd694",
+        "Relation": "or",
+        "Optab": "="
+      },
+      {
+        "Column": "gameareaid",
+        "Values": "369fb7c6778340f3b0a232c0f86f6daf",
+        "Relation": "or",
+        "Optab": "="
+      },
+      {
+        "Column": "gameareaid",
+        "Values": "682be692c68a4d9caba48e27d3c0f6c9",
+        "Relation": "or",
+        "Optab": "="
+      },
+      {
+        "Column": "gameareaid",
+        "Values": "1bd55a35ff2b4e33ad125bdc01327a0e",
+        "Relation": "or",
+        "Optab": "="
+      },
+      {
+        "Column": "gameareaid",
+        "Values": "8bc7c6c0009d473789953c41cbf03119",
+        "Relation": "or",
+        "Optab": "="
+      },
+      {
+        "Column": "gameareaid",
+        "Values": "f54ac55516a14c5295e8adc698ac75a9",
+        "Relation": "or",
+        "Optab": "="
+      },
+      {
+        "Column": "gameareaid",
+        "Values": "2641c4ff22be4c6c967b45a587a3d7a9",
+        "Relation": "or",
+        "Optab": "="
+      },
+      {
+        "Column": "gameareaid",
+        "Values": "fd41308f5d3c421b80091e0b509b45c4",
+        "Relation": "or",
+        "Optab": "="
+      },
+      {
+        "Column": "gameareaid",
+        "Values": "963a4958c1ef4e22b7a144e120cdd25f",
+        "Relation": "or",
+        "Optab": "="
+      },
+      {
+        "Column": "gameareaid",
+        "Values": "d51c9d962887466cbf0baf343f00b43f",
+        "Relation": "or",
+        "Optab": "="
+      },
+      {
+        "Column": "gameareaid",
+        "Values": "d9b6166650364a57815b937927633108",
+        "Relation": "or",
+        "Optab": "="
+      },
+      {
+        "Column": "gameareaid",
+        "Values": "27225f9fd54044f29aa680ee6cf535c0",
+        "Relation": "or",
+        "Optab": "="
+      },
+      {
+        "Column": "gameareaid",
+        "Values": "031e2a9f07d2437d8746759077c928ab",
+        "Relation": "or",
+        "Optab": "="
+      },
+      {
+        "Column": "gameareaid",
+        "Values": "106f2e4bef5747a78c88230bd202e138",
+        "Relation": "or",
+        "Optab": "="
+      }
+    ],
+    [
+      {
+        "Column": "gameid",
+        "Values": "a36ead01453c40b584f8e1e687723f2d",
+        "Relation": "and",
+        "Optab": "="
+      },
+      {
+        "Column": "gametypeid",
+        "Values": "36ba770d903a44d89ba98712f19e4b69",
+        "Relation": "and",
+        "Optab": "="
+      },
+      {
+        "Column": "sellertime",
+        "Values": "13",
+        "Relation": "and",
+        "Optab": "="
+      }
+    ]
+  ],
+  "From": 0,
+  "Size": 40,
+  "Sort": [
+    {
+      "Column": "accountcomplete",
+      "Optab": "desc"
+    },
+    {
+      "Column": "lasttouched",
+      "Optab": "desc"
+    },
+    {
+      "Column": "_score",
+      "Optab": "desc"
+    }
+  ],
+  "Source": null,
+  "HighLight": [
+    {
+      "Title": "title"
+    }
+  ],
+  "Filter": null
+}
